@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:gravity="center"
+	android:id="@+id/accueilid">
+  
+  
+  
+  <TextView android:id="@+id/le_texte" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="@string/hello"
+		android:layout_gravity="center" />
+  
+  
+  <EditText android:text="" android:id="@+id/EditText01"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+  </EditText>
+  <EditText android:text="" android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+  </EditText>
+  <ImageView android:id="@+id/logoEnsi" android:src="@drawable/ensi"
+		android:layout_width="100px" android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal">
+  </ImageView>
+  
+  <Button android:text="Go !" android:id="@+id/Button01"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+  </Button>
+</LinearLayout>
